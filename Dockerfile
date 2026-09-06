@@ -19,6 +19,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     build-essential \
     git \
+    jq \
     python3-dev \
     python3-venv && \
   if [ -z ${WHISPER_VERSION+x} ]; then \
