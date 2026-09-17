@@ -28,6 +28,7 @@ RUN \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
+    'wyoming-faster-whisper[hass]' \
     setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ \
     nvidia-cublas-cu12 \
